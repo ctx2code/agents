@@ -3,7 +3,7 @@
 ## Rust Code Guidelines
 
 + Prefer iterators over loops.
-+ Prefer chains of small closures over a single complex one.
++ Prefer chains of small closures over a single big complex closure.
 
 + Prefer `.map_err(...)` over `Ok(...?)`.
 + Prefer `.map(|_| ()).map_err(...)` over `...?; Ok(())`.

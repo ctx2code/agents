@@ -6,4 +6,4 @@
 + Use `.context(...)` before returning with `?`.
 + Use `.context(...)` with a description about the whole operation.
 
-+ Prefer `dotenvy::var` over `dotenvy::dotenv; ...; std::env::var`.
++ Prefer `dotenvy::var(...)` over `dotenvy::dotenv(); ...; std::env::var(...)`.

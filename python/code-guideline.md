@@ -9,3 +9,5 @@
 + Put the import statements as near to their usage site as possible.
 + For import statements at the file scope, only import module base.
 + For those imported and only used once, only import module base.
+
++ Prefer iterator/generator and list comprehension over loops.
