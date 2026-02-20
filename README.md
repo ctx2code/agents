@@ -5,8 +5,8 @@ Contains various rules for code agents in different scenarios.
 
 ## Usage
 
-Run code agent from the destination and ask them to update `AGENTS.md` from
-here (url, local folder, et al).
+Run code agent from this project and ask it to update a `AGENTS.md` file in
+another project.
 
 (See [agent file](./AGENTS.md) for more details.)
 
